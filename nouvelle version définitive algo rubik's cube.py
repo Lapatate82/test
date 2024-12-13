@@ -47,7 +47,7 @@ def R(U3,U6,U9,F3,F6,F9,D3,D6,D9,B1,B4,B7,R1,R2,R3,R4,R6,R7,R8,R9):
     F3 = D6
     D3 = B7
     B7 = U3B
-    U6B = U6
+    U6B = U9
     U6 = F6
     F6 = D6
     D6 = B4
