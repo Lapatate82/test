@@ -1,4 +1,4 @@
-﻿# Le cube est défini par 54 variables représentant chancune une petite facette du cube et ayant pour valeur le nom de la couleur de cette facette.
+# Le cube est défini par 54 variables représentant chancune une petite facette du cube et ayant pour valeur le nom de la couleur de cette facette.
 
 # les variables sont nommées en fonction de deux choses: la face où elles sont avec une lettre pour chaque face et leur position dans la face avec
 # un numéro pour chaque position.
@@ -38,8 +38,11 @@
 # Définition des mouvements de base du cube avec avec dans la notation un I pour remplacer le ' quand le mouvement est inversé.
 # Notations internationales: (https://www.francocube.com/notation)
 
+
+
+
 def R(U3,U6,U9,F3,F6,F9,D3,D6,D9,B1,B4,B7,R1,R2,R3,R4,R6,R7,R8,R9):
-    U3B = U3
+    U3B = U6
     U3 = F3
     F3 = D3
     D3 = B7
